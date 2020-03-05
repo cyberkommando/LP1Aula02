@@ -6,18 +6,19 @@ namespace ValoresEspeciais
     {
         static void Main(string[] args)
         {
-            int a = int.MaxValue;
+            float b = float.MinValue;
+            double c = double.MinValue;
             //Console.WriteLine(int.MinValue);
-            Console.WriteLine(a + 1);
+            //Console.WriteLine(a + 1);
             //Console.WriteLine(short.MinValue);
             //Console.WriteLine(short.MaxValue);
             //Console.WriteLine(sbyte.MinValue);
             //Console.WriteLine(sbyte.MaxValue);
-            //Console.WriteLine(float.MinValue);
+            Console.WriteLine(b - 5);
             //Console.WriteLine(float.MaxValue);
             //Console.WriteLine(decimal.MinValue);
             //Console.WriteLine(decimal.MaxValue);
-            //Console.WriteLine(double.MinValue);
+            Console.WriteLine(c - 3);
             //Console.WriteLine(double.MaxValue);
             //Console.WriteLine(float.PositiveInfinity);
             //Console.WriteLine(float.NegativeInfinity);
